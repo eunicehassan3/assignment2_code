@@ -1,5 +1,5 @@
-public class ShellSort {
-    public static int[] shellSort(int[] arr){
+public class ShellSort implements SortingAlgorithm{
+    public  int[] sorty(int[] arr){
         //int temp;
         int n = arr.length;
         for(int gap = n/2; gap > 0; gap /= 2){

@@ -1,5 +1,5 @@
-public class MergeSort {
-    public static int[] mergeSort(int[] arr){
+public class MergeSort implements SortingAlgorithm{
+    public int[] sorty(int[] arr){
         if(arr.length <= 1){
             return arr;
         }
@@ -13,14 +13,14 @@ public class MergeSort {
         for(int i = mid; i < arr.length; i++){
             right[i - mid] = arr[i];
         }
-        left = mergeSort(left);
-        right = mergeSort(right);
+        left = sorty(left);
+        right = sorty(right);
 
         return merge(left, right);
 
     }
 
-    public static int[] merge(int[] left, int[] right){
+    public int[] merge(int[] left, int[] right){
         int i = 0, j = 0, k = 0;
         int[] result = new int[left.length + right.length];
         // Compare elements from left and right arrays and merge them into the result array

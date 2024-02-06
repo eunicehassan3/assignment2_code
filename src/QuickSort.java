@@ -1,4 +1,4 @@
-public class QuickSort {
+public class QuickSort implements SortingAlgorithm{
     public int findPivot(int[] arr, int start, int end) {
         int mid = start + (end - start) / 2;
         int pivot = arr[mid];
@@ -27,7 +27,7 @@ public class QuickSort {
         }
         return high;
     }
-    public static int[] quickSort(int[] arr) {
+    public int[] sorty(int[] arr) {
         if(arr.length < 2){
             return arr;
         }

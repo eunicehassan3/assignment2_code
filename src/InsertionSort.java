@@ -1,5 +1,5 @@
-public class InsertionSort {
-    public static int[] insertionSort(int[] array){
+public class InsertionSort implements SortingAlgorithm{
+    public int[] sorty(int[] array){
         int temp;
         for(int i = 1; i < array.length; i++){
             int j = i;

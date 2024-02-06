@@ -1,5 +1,5 @@
-public class SelectionSort {
-    public static int[] selectionSort(int[] arr){
+public class SelectionSort implements SortingAlgorithm{
+    public  int[] sorty(int[] arr){
         int temp;
         for(int i = 0; i < arr.length - 1; i++){
             int minIndex = i;
