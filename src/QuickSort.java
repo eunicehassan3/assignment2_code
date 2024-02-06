@@ -27,11 +27,19 @@ public class QuickSort implements SortingAlgorithm{
         }
         return high;
     }
+
+    private void quicksort(int[] arr, int start, int end){
+        if(start < end){
+            int pivot = findPivot(arr,start,end);
+            quicksort(arr, start, pivot - 1);
+            quicksort(arr, pivot + 1, end);
+        }
+    }
     public int[] sorty(int[] arr) {
-        if(arr.length < 2){
+        if(arr.length <= 1){
             return arr;
         }
-       // int high = findPivot(arr, )
+        quicksort(arr, 0, arr.length - 1);
         return arr;
     }
 }

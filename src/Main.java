@@ -7,6 +7,7 @@ public class Main {
         SelectionSort s = new SelectionSort();
         MergeSort m = new MergeSort();
         ShellSort sh = new ShellSort();
+        QuickSort q = new QuickSort();
         Tester t1 = new Tester(b);
         System.out.println("Test: " + t1.singleTest(1000));
          t1.test(20, 1000);
@@ -16,5 +17,6 @@ public class Main {
         System.out.println(Arrays.toString(s.sorty(arr)));
         System.out.println(Arrays.toString(sh.sorty(arr)));
         System.out.println(Arrays.toString(m.sorty(arr)));
+        System.out.println(Arrays.toString(q.sorty(arr)));
     }
 }

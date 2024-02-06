@@ -21,25 +21,33 @@ public class MergeSort implements SortingAlgorithm{
     }
 
     public int[] merge(int[] left, int[] right){
-        int i = 0, j = 0, k = 0;
+        int l = 0; //left index
+        int r = 0; //right index
+        int index = 0; //result index;
         int[] result = new int[left.length + right.length];
-        // Compare elements from left and right arrays and merge them into the result array
-        while (i < left.length && j < right.length) {
-            if (left[i] <= right[j]) {
-                result[k++] = left[i++];
+
+        while (l < left.length && r < right.length) {
+            if (left[l] <= right[r]) {
+                result[index] = left[l];
+                index++;
+                l++;
             } else {
-                result[k++] = right[j++];
+                result[index] = right[r];
+                index++;
+                r++;
             }
         }
 
-        // Copy remaining elements from left array, if any
-        while (i < left.length) {
-            result[k++] = left[i++];
+        while (l < left.length) {
+            result[index] = left[l];
+            index ++;
+            l++;
         }
 
-        // Copy remaining elements from right array, if any
-        while (j < right.length) {
-            result[k++] = right[j++];
+        while (r < right.length) {
+            result[index] = right[r];
+            index++;
+            r++;
         }
 
         return result;
