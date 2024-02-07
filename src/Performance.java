@@ -86,6 +86,80 @@ public class Performance {
         shellTest.test(20, 150000);
         System.out.println("\n");
 
-    }
 
+        //K-sorted
+
+        System.out.println("K-Sorting Algorithm - Bubble Sort");
+        bubbleTest.testK(20, 100);
+        bubbleTest.testK(20, 500);
+        bubbleTest.testK(20, 1000);
+        bubbleTest.testK(20, 2000);
+        bubbleTest.testK(20, 5000);
+        bubbleTest.testK(20, 10000);
+        bubbleTest.testK(20, 20000);
+        bubbleTest.testK(20, 75000);
+        bubbleTest.testK(20, 150000);
+        System.out.println("\n");
+
+        System.out.println("K-Sorting Algorithm - Insertion Sort");
+        insertionTest.testK(20, 100);
+        insertionTest.testK(20, 500);
+        insertionTest.testK(20, 1000);
+        insertionTest.testK(20, 2000);
+        insertionTest.testK(20, 5000);
+        insertionTest.testK(20, 10000);
+        insertionTest.testK(20, 20000);
+        insertionTest.testK(20, 75000);
+        insertionTest.testK(20, 150000);
+        System.out.println("\n");
+
+        System.out.println("K-Sorting Algorithm - Selection Sort");
+        selectionTest.testK(20, 100);
+        selectionTest.testK(20, 500);
+        selectionTest.testK(20, 1000);
+        selectionTest.testK(20, 2000);
+        selectionTest.testK(20, 5000);
+        selectionTest.testK(20, 10000);
+        selectionTest.testK(20, 20000);
+        selectionTest.testK(20, 75000);
+        selectionTest.testK(20, 150000);
+        System.out.println("\n");
+
+        System.out.println("K-Sorting Algorithm - Quick Sort");
+        quickTest.testK(20, 100);
+        quickTest.testK(20, 500);
+        quickTest.testK(20, 1000);
+        quickTest.testK(20, 2000);
+        quickTest.testK(20, 5000);
+        quickTest.testK(20, 10000);
+        quickTest.testK(20, 20000);
+        quickTest.testK(20, 75000);
+        quickTest.testK(20, 150000);
+        System.out.println("\n");
+
+        System.out.println("K-Sorting Algorithm - Merge Sort");
+        mergeTest.testK(20, 100);
+        mergeTest.testK(20, 500);
+        mergeTest.testK(20, 1000);
+        mergeTest.testK(20, 2000);
+        mergeTest.testK(20, 5000);
+        mergeTest.testK(20, 10000);
+        mergeTest.testK(20, 20000);
+        mergeTest.testK(20, 75000);
+        mergeTest.testK(20, 150000);
+        System.out.println("\n");
+
+        System.out.println("K-Sorting Algorithm - Shell Sort");
+        shellTest.testK(20, 100);
+        shellTest.testK(20, 500);
+        shellTest.testK(20, 1000);
+        shellTest.testK(20, 2000);
+        shellTest.testK(20, 5000);
+        shellTest.testK(20, 10000);
+        shellTest.testK(20, 20000);
+        shellTest.testK(20, 75000);
+        shellTest.testK(20, 150000);
+        System.out.println("\n");
+    }
 }
+

@@ -1,0 +1,72 @@
+Sorting Algorithm - Bubble Sort
+Average Sorting Time: 0.55
+Average Sorting Time: 0.85
+Average Sorting Time: 1.05
+Average Sorting Time: 3.2
+Average Sorting Time: 17.75
+Average Sorting Time: 103.05
+Average Sorting Time: 626.6
+Average Sorting Time: 10192.3
+Average Sorting Time: 43013.75
+
+
+Sorting Algorithm - Insertion Sort
+Average Sorting Time: 0.2
+Average Sorting Time: 0.35
+Average Sorting Time: 0.35
+Average Sorting Time: 0.9
+Average Sorting Time: 5.05
+Average Sorting Time: 20.55
+Average Sorting Time: 143.85
+Average Sorting Time: 1167.85
+Average Sorting Time: 5918.95
+
+
+Sorting Algorithm - Selection Sort
+Average Sorting Time: 0.2
+Average Sorting Time: 0.3
+Average Sorting Time: 0.6
+Average Sorting Time: 2.65
+Average Sorting Time: 16.25
+Average Sorting Time: 72.8
+Average Sorting Time: 445.15
+Average Sorting Time: 445.2
+Average Sorting Time: 3639.45
+Average Sorting Time: 16514.4
+
+
+
+Sorting Algorithm - Quick Sort
+Average Sorting Time: 0.3
+Average Sorting Time: 0.3
+Average Sorting Time: 0.15
+Average Sorting Time: 0.55
+Average Sorting Time: 0.75
+Average Sorting Time: 2.7
+Average Sorting Time: 2.8
+Average Sorting Time: 7.55
+Average Sorting Time: 15.8
+
+
+Sorting Algorithm - Merge Sort
+Average Sorting Time: 0.25
+Average Sorting Time: 0.3
+Average Sorting Time: 0.5
+Average Sorting Time: 1.1
+Average Sorting Time: 9.15
+Average Sorting Time: 10.5
+Average Sorting Time: 5.6
+Average Sorting Time: 14.15
+Average Sorting Time: 28.4
+
+
+Sorting Algorithm - Shell Sort
+Average Sorting Time: 0.2
+Average Sorting Time: 0.7
+Average Sorting Time: 0.65
+Average Sorting Time: 1.05
+Average Sorting Time: 1.9
+Average Sorting Time: 3.25
+Average Sorting Time: 3.5
+Average Sorting Time: 13.5
+Average Sorting Time: 31.95
